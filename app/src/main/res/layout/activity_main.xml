@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_margin="30dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+<LinearLayout
+    app:layout_constraintTop_toBottomOf="@+id/imageView"
+    android:layout_width="match_parent"
+    android:weightSum="5"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints">
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/button1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Image"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/button2"
+
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uploade Image"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/button3"
+
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:onClick="login"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/button4"
+
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine List"
+        android:onClick="mediList"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:layout_weight="1"
+    android:id="@+id/button5"
+
+    app:layout_constraintTop_toBottomOf="@+id/button4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Calclutor"
+    android:onClick="calclutor"
+    android:backgroundTint="@color/teal_200"
+    android:textColor="@color/black"
+    />
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

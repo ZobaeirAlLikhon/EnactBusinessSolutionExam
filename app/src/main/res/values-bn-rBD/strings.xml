@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EnactBusinessSolutionExam</string>
+    <string name="wellcome">স্বাগত</string>
+    <string name="user_name">ব্যবহারকারীর নাম</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="sign_in">লগ ইন করুন</string>
+    <string name="sign_up">সাইন ইন করুন</string>
+    <string name="no_account">আপনার কোন অ্যাকাউন্ট নেই?</string>
+</resources>

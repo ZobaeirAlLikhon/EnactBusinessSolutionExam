@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EnactBusinessSolutionExam</string>
+    <string name="wellcome">Welcome</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="no_account">You have no account?</string>
+</resources>
