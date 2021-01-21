@@ -47,7 +47,7 @@ public class LogIn extends AppCompatActivity {
         textView=findViewById(R.id.wellcome);
         user=findViewById(R.id.username);
         passw=findViewById(R.id.password);
-        
+
         userName=findViewById(R.id.username);
         pass=findViewById(R.id.password);
         textAcc=findViewById(R.id.noAcc);
@@ -60,7 +60,7 @@ public class LogIn extends AppCompatActivity {
             user.setHint("ব্যবহারকারীর নাম");
             passw.setHint("পাসওয়ার্ড");
             signIn.setText("লগ ইন করুন");
-            signUp.setText("সাইন ইন করুন");
+            signUp.setText("নিবন্ধন করুন");
             textAcc.setText("আপনার কোন অ্যাকাউন্ট নেই?");
 
         }

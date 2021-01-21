@@ -46,7 +46,7 @@ public class SignUp extends AppCompatActivity {
                     username.setHint("ব্যবহারকারীর নাম");
                     password.setHint("পাসওয়ার্ড");
                     repassword.setHint("আবার পাসওয়ার্ড");
-                    signup.setText("সাইন ইন করুন");
+                    signup.setText("নিবন্ধন করুন");
                     signin.setText("বিব্যবহারকারি দ্যমান? সাইন ইন পৃষ্ঠাতে যান");
 
 

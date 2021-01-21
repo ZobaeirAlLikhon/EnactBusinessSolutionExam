@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EnactBusinessSolutionExam">
-        <activity android:name=".SignUp"></activity>
+        <activity android:name=".Loginsuccessfull"></activity>
+        <activity android:name=".LoginWithAPI" />
+        <activity android:name=".SignUp" />
         <activity android:name=".MedicineDatails" />
         <activity android:name=".Calclutor" />
         <activity android:name=".MediList" />
